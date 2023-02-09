@@ -1,0 +1,141 @@
+/* navbar */
+.navbar{
+    background-image: linear-gradient(to top,transparent ,black );
+}
+.nav-item:hover{
+    text-shadow: 2px 2px rgb(193, 151, 151);
+    font-size: x-large;
+}
+.banner{
+    background-image: url(/Assestss/Shape1.png);
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.text-center-1{
+    padding: 10vh;
+}
+.btn:hover{
+    box-shadow: 1px 1px 3px 6px rgb(193, 151, 151) ;
+}
+.main-1{
+    font-size: 4rem;
+}
+
+/* chef */
+
+.image-back-1{
+    background-image: url(/Assestss/2.png),url(/Assestss/3.png),url(/Assestss/4.png),url(/Assestss/5.png),url(/Assestss/6.png),url(/Assestss/7.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 8%,4%,4%,6%,4%,6%;
+    background-position:90% 10%, 67% 90%, 35% 90%, 0% 40%, 10% 15%,100% 60%;
+}
+.card-chef:hover{
+    box-shadow: 1px 1px 3px 6px rgb(251, 202, 202);
+}
+
+/* burgers */
+
+.intro{
+    background-color: rgba(206, 47, 19, 0.906);
+    padding: 1vh;
+}
+.image-back-1-1{
+    background-image: url(/Assestss/2.png),url(/Assestss/3.png),url(/Assestss/4.png),url(/Assestss/5.png),url(/Assestss/6.png),url(/Assestss/7.png);
+    background-repeat: no-repeat;
+    background-size: 8%,4%,4%,6%,4%,6%;
+    background-position:55% 5%, 55% 90%, 95% 20%, 98% 99%, 10% 97%,0% 25%;
+}
+.btn-1:hover{
+    box-shadow: 1px 1px 3px 6px rgb(245, 121, 121);
+    padding: 1vh;
+}
+
+/* statistics */
+
+.intro-3{
+    background-color: rgba(206, 47, 19, 0.906);
+}
+.circle-1{
+    position:relative;
+    width:27vh;
+    height: 100%;
+    padding-bottom:50%;
+    border: 3px solid white;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle-1:hover{
+    box-shadow: 1px 1px 3px 6px rgba(213, 213, 213, 0.587);
+    cursor: pointer;
+}
+@media screen and (width:768px) {
+    .circle-1{
+        position:relative;
+        width:16vh;
+        height: 100%;
+        padding: 40%;
+        padding-bottom:50%;
+        border: 3px solid white;
+        border-radius:50%;
+        margin-left: 60%;
+    }
+}
+    @media screen and (max-width:425px) {
+        .circle-1{ 
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+.circle-1 h1{
+    position:absolute;
+    top:40%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+.circle-1 p{
+    position:absolute;
+    top:60%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+/* our packages */
+
+.image-back-1-2{
+    background-image: url(/Assestss/2.png),url(/Assestss/3.png),url(/Assestss/4.png),url(/Assestss/5.png),url(/Assestss/6.png),url(/Assestss/7.png);
+    background-repeat: no-repeat;
+    background-size: 7%,4%,3%,5%,4%,5%;
+    background-position:70% 5%, 0% 95%, 10% 5%, 98% 98%, 100% 25%,0% 22%;
+}
+.card-pack:hover{
+    box-shadow: 1px 1px 3px 6px rgba(252, 139, 139, 0.987);
+}
+
+/* berry handerson */
+
+.banner-1{
+    background-image: url(/Assestss/Shape4.png);
+    box-shadow: inset 0 0 0 1000px rgba(215, 69, 43, 0.706);
+    background-size: cover;
+    background-position: center;
+    padding-top: 22vh;
+    padding-bottom: 22vh;
+}
+
+/* our updates */
+
+.image-back-1-3{
+        background-image: url(/Assestss/2.png),url(/Assestss/3.png),url(/Assestss/4.png),url(/Assestss/5.png),url(/Assestss/6.png),url(/Assestss/7.png),url(/Assestss/7.png),url(/Assestss/4.png);
+        background-repeat: no-repeat;
+        background-size: 8%,4%,4%,5%,4%,5%,4%,3%;
+        background-position:75% 5%, 10% 50%, 15% 10%, 15% 95%, 80% 55%, 77% 95%, 50% 5%, 50% 97%;
+}
+
+
+
